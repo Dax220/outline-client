@@ -25,7 +25,7 @@ class OutlineSentryLogger: DDAbstractLogger {
 #if os(macOS)
   private static let kAppGroup = "QT8Z3Q9V3A.org.outline.macos.client"
 #else
-  private static let kAppGroup = "group.org.outline.ios.client"
+  private static let kAppGroup = "group.mt.vpn.ios.app"
 #endif
   private static let kDateFormat = "yyyy/MM/dd HH:mm:ss:SSS"
   private static let kDatePattern = "[0-9]{4}/[0-9]{2}/[0-9]{2} [0-9]{2}:[0-9]{2}:[0-9]{2}:[0-9]{3}"
